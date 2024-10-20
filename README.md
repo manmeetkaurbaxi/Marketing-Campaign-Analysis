@@ -33,14 +33,18 @@ Before conducting the analysis, the dataset underwent quality checks to ensure c
 # Insights Deep Dive
 ## Ad Clicks Analysis:
 All histograms related to clicks and conversions show somewhat symmetrical distributions, indicating relatively even distribution of these metrics.
+![fb ad conversions](https://github.com/manmeetkaurbaxi/Marketing-Campaign-Analysis/blob/main/images/fb%20ad%20conversions.png)
+![ad words ad conversions](https://github.com/manmeetkaurbaxi/Marketing-Campaign-Analysis/blob/main/images/adwords%20ad%20conversions.png)
 
 ## Conversion Rates:
 - **Facebook:** Observed higher conversion days more frequently than AdWords, which showed a tendency for either low or moderate conversion rates.
 - **AdWords:** No conversions were observed in the range of 10-15, indicating a review of strategies may be needed.
+![conversion rates](https://github.com/manmeetkaurbaxi/Marketing-Campaign-Analysis/blob/main/images/daily%20conversions%20by%20categories.png)
 
 ## Cost Effectiveness:
 A strong positive correlation (0.87) between Facebook ad clicks and sales indicates that Facebook ads are highly effective in driving sales.
 AdWords ads also positively correlate with sales, but with a moderate coefficient (0.45), suggesting other factors influence their effectiveness.
+![clicks_conversions](https://github.com/manmeetkaurbaxi/Marketing-Campaign-Analysis/blob/main/images/clicks_conv.png)
 
 ## Hypothesis Testing:
 _Hypothesis: Advertising on Facebook will result in a greater number of conversions compared to AdWords._
@@ -52,15 +56,20 @@ _Hypothesis: Advertising on Facebook will result in a greater number of conversi
 ## Predictive Modeling:
 A linear regression model showed that Facebook ad clicks explain 76.35% of the variance in conversions. This predictive capability helps in planning and optimizing future campaigns.
 
+![fb regression](https://github.com/manmeetkaurbaxi/Marketing-Campaign-Analysis/blob/main/images/fb%20regression.png)
+
 ## Trends (CTR and Conversion Rate):
 - **Weekday Performance:** Conversions are consistent, but Mondays and Tuesdays show higher conversion rates, indicating increased user engagement at the beginning of the week.
+    ![fb weekday](https://github.com/manmeetkaurbaxi/Marketing-Campaign-Analysis/blob/main/images/fb%20weekly%20conversion.png)
 - **Monthly Conversion Trends:** Fluctuations in conversion rates were observed in February, April, May, June, August, and November, possibly due to seasonal trends or changes in marketing strategies.
+    ![fb monthly](https://github.com/manmeetkaurbaxi/Marketing-Campaign-Analysis/blob/main/images/fb%20monthly%20conversion.png)
 - **CPC Trends:** May and November show lower CPC values, suggesting periods of higher advertising effectiveness, while February sees higher CPCs.
+    ![fb monthly cpc](https://github.com/manmeetkaurbaxi/Marketing-Campaign-Analysis/blob/main/images/fb%20monthly%20cpc.png)
 
 # Recommendations
 Based on the findings from this analysis, the following recommendations are provided for future ad campaigns:
-1. **Reallocate Budget to Facebook Ads:** Prioritize Facebook campaigns to maximize conversions and ROI.
-2. **Optimize AdWords Strategies:** Review and enhance targeting, design, and performance for better conversion rates.
+1. **Reallocate Budget to Facebook Ads:** Prioritize Facebook campaigns based on superior conversion rates and A/B test different ad creatives for optimization.
+2. **Optimize AdWords with A/B Testing:** Review and adjust AdWords strategies using A/B testing to address conversion gaps and improve performance.
 3. **Utilize Predictive Insights:** Leverage regression model data to set realistic targets and optimize Facebook ad spend.
 4. **Launch Campaigns on Mondays and Tuesdays:** Focus efforts on these weekdays when user engagement is highest for conversions.
 5. **Adjust Budgets Based on CPC Trends:** Shift spending to lower-cost months like May and November to maximize cost-effectiveness.
