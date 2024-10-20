@@ -76,3 +76,6 @@ Based on the findings from this analysis, the following recommendations are prov
 3. **Utilize Predictive Insights:** Leverage regression model data to set realistic targets and optimize Facebook ad spend.
 4. **Launch Campaigns on Mondays and Tuesdays:** Focus efforts on these weekdays when user engagement is highest for conversions.
 5. **Adjust Budgets Based on CPC Trends:** Shift spending to lower-cost months like May and November to maximize cost-effectiveness.
+
+
+_Please give a 🌟 if you found this repository helpful in any manner._
